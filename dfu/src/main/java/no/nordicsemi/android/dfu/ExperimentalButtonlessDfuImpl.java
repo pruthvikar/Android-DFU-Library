@@ -44,7 +44,7 @@ import no.nordicsemi.android.dfu.internal.exception.UploadAbortedException;
 	/** The UUID of the experimental Buttonless DFU service from SDK 12.x. */
 	static final UUID DEFAULT_EXPERIMENTAL_BUTTONLESS_DFU_SERVICE_UUID = new UUID(0x8E400001F3154F60L, 0x9FB8838830DAEA50L);
 	/** The UUID of the experimental Buttonless DFU characteristic from SDK 12.x. */
-	static final UUID DEFAULT_EXPERIMENTAL_BUTTONLESS_DFU_UUID         = new UUID(0x8E400001F3154F60L, 0x9FB8838830DAEA50L); // the same as service
+	static final UUID DEFAULT_EXPERIMENTAL_BUTTONLESS_DFU_UUID         = new UUID(0x8E400002F3154F60L, 0x9FB8838830DAEA50L); // the same as service
 
 	static UUID EXPERIMENTAL_BUTTONLESS_DFU_SERVICE_UUID = DEFAULT_EXPERIMENTAL_BUTTONLESS_DFU_SERVICE_UUID;
 	static UUID EXPERIMENTAL_BUTTONLESS_DFU_UUID         = DEFAULT_EXPERIMENTAL_BUTTONLESS_DFU_UUID;
